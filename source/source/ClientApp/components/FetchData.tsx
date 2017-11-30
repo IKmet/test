@@ -30,7 +30,7 @@ export class FetchData extends React.Component<RouteComponentProps<{}>, FetchDat
             { contents }
         </div>;
     }
-
+    //some
     private static renderForecastsTable(forecasts: WeatherForecast[]) {
         return <table className='table'>
             <thead>
