@@ -25,7 +25,7 @@ export class FetchData extends React.Component<RouteComponentProps<{}>, FetchDat
             : FetchData.renderForecastsTable(this.state.forecasts);
 
         return <div>
-            <h1>Weather forecast</h1>
+            <h1>Weather</h1>
             <p>This component demonstrates fetching data from the server.</p>
             { contents }
         </div>;
